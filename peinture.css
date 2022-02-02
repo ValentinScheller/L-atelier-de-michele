@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 title{
-    font-family: 'Parisienne', cursive;
+    font-family: Georgia;
 }
 
 .bandeau{
@@ -10,13 +10,14 @@ title{
     background-position:top;
 }
 
-body{
-    background-color: whitesmoke;
+.bandeau h1{
+    font-family: 'Parisienne', cursive;
+    margin-left: 37%;
+    font-size: 250%;
 }
 
-h1{
-    font-family: Georgia;
-    margin-left: 40%;
+body{
+    background-color: whitesmoke;
 }
 
 *{
@@ -94,6 +95,11 @@ nav a:hover{
 
 .main1 .content .card .right h1{
     margin-left: 0%;
+    font-family: 'Parisienne', cursive;
+}
+
+.main1 .content .card .right h1 i{
+    font-size: 70%;
 }
 
 .main1 .content .card .left img{
@@ -131,6 +137,11 @@ nav a:hover{
 }
 .main2 .content .card .left h1{
     margin-left: 0%;
+    font-family: 'Parisienne', cursive;
+}
+
+.main2 .content .card .left h1 i{
+    font-size: 70%;
 }
 
 .main2 .content .card .right img{
