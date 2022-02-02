@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 title{
     font-family: Georgia;
 }
@@ -8,15 +10,16 @@ title{
     background-position:top;
 }
 
+.bandeau h1{
+    font-family: 'Parisienne', cursive;
+    margin-left: 37%;
+    font-size: 250%;
+}
 
 body{
     background-color: whitesmoke;
 }
 
-h1{
-    font-family: Georgia;
-    margin-left: 40%;
-}
 
 *{
     margin: 0%;
