@@ -1,0 +1,185 @@
+title{
+    font-family: Georgia;
+}
+
+.bandeau{
+    background-image: url(Photos/fond2.jpg);
+    background-size: 100%;
+    background-position:top;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-family: Georgia;
+    margin-left: 40%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    Background-color: rgb(194, 187, 181);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float:left;
+    width: 33.33%;
+    text-align: center;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav ul li b {
+    color: black;
+    border-bottom: 2px black;
+    size: 10%;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main .content .card .right{
+   flex: 0 0 30%;
+   padding: 0%;
+   color:rgb(0, 0, 0);
+   margin-top: -22%;
+   margin-left: 20%;
+}
+
+.main .content .card .right h1{
+    margin-left: 0%;
+}
+
+.main .content .card .left img{
+    height:100%;
+    width: 35%;
+    margin-left: 3%;
+}
+
+.main .content .card .right p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Lucida Sans';
+}
+
+
+
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main2 .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main2 .content .card .left{
+   flex: 0 0 30%;
+   padding: 0%;
+   color:rgb(0, 0, 0);
+   margin-top: -22%;
+   margin-left: -26%;
+}
+.main2 .content .card .left h1{
+    margin-left: 0%;
+}
+
+.main2 .content .card .right img{
+    height:100%;
+    width: 35%;
+    margin-left: 62%;
+}
+
+.main2 .content .card .left p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Lucida Sans';
+}
+
+
+.img1{
+    margin-left: 3%;
+}
+
+.img2{
+    margin-left: 3%;
+}
+
+.img3{
+    margin-left: 3%;
+}
+
+.img4{
+    margin-left: 62%;
+}
+
+.img5{
+    margin-left: 3%;
+}
+
+.img6{
+    margin-left: 62%;
+}
+
+.img7{
+    margin-left: 3%;
+}
+
+.img8{
+    margin-left: 62%;
+}
+
+.img9{
+    margin-left: 3%;
+}
+
+.img10{
+    margin-left: 62%;
+}
